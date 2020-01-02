@@ -48,5 +48,5 @@ def matrix_update(matrix, row, column, new_value)
   # Return the updated matrix
   assembled_matrix = [["Grapefruit", "Pineapple", "Oranges", "Watermelon", "Eggplant"],
     ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"] ]
-  row[0][2] = "Lemons"
+  column[0][2] = "Lemons"
 end
